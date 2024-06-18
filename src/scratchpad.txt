@@ -1,0 +1,41 @@
+6.14.24
+
+Building games across computers - MultiClient Game Mode (Tic Tac Toe)
+Connect to the internet
+Add a Server 
+Game State 
+Server actions
+ (make a move) - accepting a coordinate from a specific player for a specific game
+READ
+Send back new game state for both players (websocket)
+Players can get new game state regularly 
+GAME
+CREATE 
+Reset
+Create new game
+READ 
+get game state for existing games
+Get all games
+Get all games that need another player (lobby)
+UPDATE 
+Join
+Make a move
+reset
+DELETE 
+Client
+Fetch the game state (websockets, long polling)
+Lobby - 
+New page view all of the games that currently need to be joined 
+Start a new game 
+Win modal 
+Hit the server and create a new game 
+
+Const gameState = {
+Id: “”, 
+Board: []
+currentPlayer: “X”
+Player1: {token: “X”, id: “”},
+Player2: {token: “O”, id: “”},
+}
+
+
